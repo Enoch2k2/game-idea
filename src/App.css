@@ -1,0 +1,126 @@
+body{
+  font: 80% arial, helvetica, sans-serif;
+  background: #ccc url(http://www.htmldog.com/examples/images/lizards2.gif);
+  margin: 0;
+}
+
+.accessaid {
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+}
+
+#header {
+  background: #FCF7F5;
+  height: 60px;
+  padding-left: 15px;
+}
+
+#navigation {
+  position: absolute;
+  top: 60px;
+  margin-top: 0.5em;
+  left: 0;
+  width: 134px;
+}
+
+#navigation ul {
+  margin: 0 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+#navigation ul a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  background: #17a;
+  border: 3px solid #28b;
+  border-radius: 5px;
+  padding: 0 0.5em;
+  margin: 0 1em 3px 1em;
+}
+
+#navigation ul.dropdown a {
+  color: black;
+  background: #7FAFE5;
+  border: 3px solid #fff;
+  margin: 0 1.5em 3px 1.5em;
+}
+
+#navigation a:visited {
+  color: #ccc;
+}
+
+#navigation a:hover {
+  background: #39c;
+  border-color: white;
+}
+
+#navigation ul.dropdown a:hover {
+  background: red;
+  border-color: gold;
+}
+
+#content {
+  border-left: 134px solid #069;
+  background: white;
+  padding: 1px 20px 1em 40px;
+}
+h1 {
+  position: absolute;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #036;
+  text-shadow: -2px 2px 2px #999;
+}
+
+h3 {
+  font-size: 1.25em;
+  color: #036;
+  text-shadow: -2px 2px 2px #999;
+}
+
+#content ol {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#content ol, #content ol * {
+  background-color: #FCF7F5;
+
+}
+
+#content ol li, #content ol li ul li {
+  margin-bottom: 5px;
+}
+
+.container {
+  position: relative;
+  width: 760px;
+  border: solid #036;
+  border-width: auto;
+  margin: auto;
+}
+
+#footer {
+  position: relative;
+  height: 25px;
+  background: #FCF7F5;
+}
+
+#footer p {
+  float: right;
+  margin: 0;
+  padding-top: 5px;
+  padding-right: 15px;
+}
+
+#dragon {
+  position: relative;
+  width: 540px;
+  height: 350px;
+  background: url('./images/dragon.jpg');
+}
