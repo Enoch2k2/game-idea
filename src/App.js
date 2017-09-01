@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <div className="container clearfix">
           <Header />
           <Navigation />
           {this.props.children}

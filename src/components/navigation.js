@@ -29,14 +29,14 @@ export default class Navigation extends React.Component {
             <li><a href="">Multiplayer</a></li>
             <li><a href="" onClick={this.toggleUnits}>Units</a></li>
           </ul>
-            {this.state.units ? <ul className="dropdown"><li><a href="">Human</a></li>
-              <li><a href="">Dwarf</a></li>
-              <li><a href="">Elf</a></li>
-              <li><a href="">Aerial Race (placeholder)</a></li>
-              <li><a href="">Demon</a></li>
-              <li><a href="">Ork</a></li>
-              <li><a href="">Undead</a></li>
-              <li><a href="">Insectoid (placeholder)</a></li></ul> : null}
+            {this.state.units ? <ul className="dropdown"><li><Link to="/units/human">Human</Link></li>
+              <li><Link to="/units/dwarf">Dwarf</Link></li>
+              <li><Link to="/units/elf">Elf</Link></li>
+              <li><Link to="/units/aerial">Aerial Race (placeholder)</Link></li>
+              <li><Link to="/units/demon">Demon</Link></li>
+              <li><Link to="/units/ork">Ork</Link></li>
+              <li><Link to="/units/undead">Undead</Link></li>
+              <li><Link to="/units/insectoid">Insectoid (placeholder)</Link></li></ul> : null}
           <ul>
             <li><a href="">About Us</a></li>
             <li><a href="">Contact</a></li>
